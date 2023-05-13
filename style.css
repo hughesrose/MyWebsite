@@ -106,6 +106,8 @@ a {
 /*links section*/
 .title {
     text-align: center;
+    padding: 25px;
+    margin-top: 75px;
 }
 
 /*Resume*/
