@@ -32,13 +32,14 @@ body {
     top: 0;
     width: 100%;
 }
+
 .main-nav{
     display: flex;
     list-style: none;
     font-size: 0.7em;
     margin: 0px;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     float: right;
     font-family: Ariel;
 }
@@ -49,11 +50,16 @@ body {
         padding: 0px;
     }
 }
-li {
+
+.push {
+    float: left;
+}
+
+.main-nav li {
     padding: 20px;
 }
 
-.nav-color {
+.main-nav li a {
     color: #f5f5f6;
     text-decoration: none;
 }
@@ -90,6 +96,15 @@ a {
     grid-gap: 20px ;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-template-rows: 1fr;
+}
+
+/*Profile Image*/
+.profileImage {
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    padding: 25px;
+    margin-top: 75px; 
 }
 
 .box > img {
